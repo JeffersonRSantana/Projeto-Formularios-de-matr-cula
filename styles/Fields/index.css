@@ -18,7 +18,8 @@ label {
 
 input:focus,
 select:focus,
-textarea:focus {
+textarea:focus,
+input[type="date"]:focus {
   outline: 0.25rem solid var(--surface-secondary);
   border: 0.25rem var(--stroker-hightlight);
   outline-offset: 0.1px;
