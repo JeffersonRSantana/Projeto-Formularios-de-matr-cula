@@ -75,8 +75,8 @@ input {
     margin-top: 0.25rem;
   }
 
-  &[:required] + .error {
-    display: flex:;
+  & [required] + .error {
+    display: flex;
     align-items: center;
     gap: 0.25rem;
     font: var(--text-sm);
